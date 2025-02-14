@@ -1,0 +1,28 @@
+body{
+    background-color:rgb(224, 194, 224) ;
+}
+.gallery{
+    margin: 0 10% 10% 10%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+    gap: 20px;
+    
+}
+.images{
+  width: 30%;
+  border-radius: 20%;
+}
+header > h1{
+    font-family: "Bad Script", serif;
+    text-align: center;
+    color: rgb(155, 7, 69);
+    font-size: 40px;
+    
+
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
